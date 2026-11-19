@@ -2,11 +2,11 @@
   color-scheme: light;
   --ink: #202c32;
   --muted: #48575f;
-  --accent: #007a35;
-  --accent-bright: #169b50;
-  --header: #effbf2;
-  --line: #bedfc8;
-  --subtle-line: #e3f0e6;
+  --accent: #224b8d;
+  --accent-bright: #527bbd;
+  --header: #f0f5fc;
+  --line: #c9d8ed;
+  --subtle-line: #e7eef7;
   --paper: #fff;
   --sidebar-width: 11rem;
   --column-gap: 1.75rem;
@@ -86,7 +86,7 @@ nav a[aria-current="page"] { font-weight: 700; }
 .button { font-weight: 650; }
 
 .section { border-top: 1px solid var(--line); padding-block: .75rem; }
-.section h2 { margin-bottom: .4rem; color: var(--accent); }
+.section h2 { margin-bottom: .4rem; color: var(--accent-bright); }
 .content > p + p { margin-top: .45rem; }
 .rows p, .meta { color: var(--muted); }
 .rows { list-style: none; padding: 0; margin: 0; }
