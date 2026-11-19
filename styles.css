@@ -96,13 +96,6 @@ nav a[aria-current="page"] { font-weight: 700; }
 .year, .numbered-list > li::marker { color: var(--accent); font-variant-numeric: tabular-nums; font-weight: 650; }
 .numbered-list { list-style: decimal; padding-inline-start: 2rem; }
 
-footer {
-  border-top: 1px solid var(--line);
-  padding-block: .55rem;
-  font-size: .9rem;
-  color: var(--muted);
-}
-
 @media (max-width: 600px) {
   .wrap { width: calc(100% - 1.5rem); }
   .top .wrap, .page-layout { grid-template-columns: minmax(0, 1fr); }
