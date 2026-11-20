@@ -120,4 +120,5 @@ nav a[aria-current="page"] { font-weight: 700; }
 
 .profile-email { margin-top: .35rem; }
 
-.email-image { width: auto; height: .95em; max-width: 100%; object-fit: contain; vertical-align: -.08em; }
+/* The email image has nine pixels below the text baseline in its 34px canvas. */
+.email-image { width: auto; height: .95em; max-width: 100%; object-fit: contain; vertical-align: -.25em; }
